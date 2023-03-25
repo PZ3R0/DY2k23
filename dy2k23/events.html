@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daksha Yanthra</title>
+    <link
+      rel="icon"
+      href="images/Logo.webp"
+      type="image/x-icon"
+      media="(prefers-color-scheme: dark)"
+    />
+    <link
+      rel="icon"
+      href="images/Logo_.webp"
+      type="image/x-icon"
+      media="(prefers-color-scheme:light)"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link href="./css/events.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- <div class="main-wrapper"> -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark navbar__">
+        <div class="container-fluid" style="justify-content: space-between">
+          <div class="jnontainer">
+            <a class="navbar-brand" href="#" aria-label="go to homepage">
+              <img src="images/Logo.webp" alt="" width="30" height="30" />
+            </a>
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="nav navbar-nav navbar-right" style="max-height: 200px">
+              <li class="nav-item me-4">
+                <a
+                  class="nav-link"
+                  aria-current="page"
+                  href="Home.html"
+                  aria-label="go to homepage"
+                  >HOME</a
+                >
+              </li>
+              <li class="nav-item me-4">
+                <a
+                  class="nav-link active"
+                  href="events.html"
+                  aria-label="go to events page"
+                  >EVENTS</a
+                >
+              </li>
+              <li class="nav-item me-4">
+                <a
+                  class="nav-link"
+                  href="about.html"
+                  aria-label="go to about page"
+                  >ABOUT</a
+                >
+              </li>
+              <li class="nav-item me-4">
+                <a
+                  class="nav-link"
+                  href="#"
+                  aria-label="open contact modal"
+                  id="myBtn"
+                  >CONTACTS</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <div class="content">
+            <div>
+              <h2 class="contact-us">Contact Us</h2>
+            </div>
+            <div class="daksha-yantra">
+              <div class="contact-daksha">
+                <h2>Daksha</h2>
+                <div>
+                  <a href="mailto: daksha@ceattingal.ac.in"
+                    >mail&nbsp;<i class="fa-regular fa-envelope"></i
+                  ></a>
+                </div>
+                <div>
+                  <a href="https://wa.me/918848964198"
+                    >Convenor&nbsp;<i class="fa-brands fa-whatsapp"></i
+                  ></a>
+                </div>
+                <div>
+                  <a href="https://wa.me/919746246588"
+                    >Coordinator&nbsp;<i class="fa-brands fa-whatsapp"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="contact-yanthra">
+                <h2>Yanthra</h2>
+                <div>
+                  <a href="mailto: yanthra@ceattingal.ac.in"
+                    >mail&nbsp;<i class="fa-regular fa-envelope"></i
+                  ></a>
+                </div>
+                <div>
+                  <a href="https://wa.me/918921413767"
+                    >Convenor&nbsp;<i class="fa-brands fa-whatsapp"></i
+                  ></a>
+                </div>
+                <div>
+                  <a href="https://wa.me/918138006250"
+                    >Coordinator&nbsp;<i class="fa-brands fa-whatsapp"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="icons">
+              <a href="https://instagram.com/dakshayanthra"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://www.facebook.com/ceadakshayanthra"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header-container">
+        <p class="heading">COUNTDOWN</p>
+      </div>
+      <div class="wrapper">
+        <div id="countdown-container" class="countdown-container">
+          <article id="js-countdown" class="countdown">
+            <div id="js-days" class="number"></div>
+            <div id="js-separator" class="separator">:</div>
+            <div id="js-hours" class="number"></div>
+            <div id="js-separator" class="separator">:</div>
+            <div id="js-minutes" class="number"></div>
+            <div id="js-separator" class="separator">:</div>
+            <div id="js-seconds" class="number"></div>
+          </article>
+        </div>
+      </div>
+      <div class="header-container-pro">
+        <p class="heading-pro">PROSHOW</p>
+      </div>
+      <div class="proshow">
+        <div class="untitled">
+          <div class="untitled__slides">
+            <div class="untitled__slide">
+              <div class="untitled__slideBg"></div>
+              <div class="untitled__slideContent">
+                <span>Ribin Richard,</span>
+                <span>Fejo</span>
+                <a
+                  class="button"
+                  href="https://www.yepdesk.com/daksha-yanthra"
+                  target="/black"
+                  >Buy Now</a
+                >
+              </div>
+            </div>
+            <div class="untitled__slide">
+              <div class="untitled__slideBg"></div>
+              <div class="untitled__slideContent">
+                <span>Dabzee,</span>
+                <span>Adarsh ADJ</span>
+                <a
+                  class="button"
+                  href="https://www.yepdesk.com/daksha-yanthra"
+                  target="/black"
+                  >Buy Now</a
+                >
+              </div>
+            </div>
+            <div class="untitled__slide">
+              <div class="untitled__slideBg"></div>
+              <div class="untitled__slideContent">
+                <span>DJ SHA,</span>
+                <span>DJ Nivin</span>
+                <a
+                  class="button"
+                  href="https://www.yepdesk.com/daksha-yanthra"
+                  target="/black"
+                  >Buy Now</a
+                >
+              </div>
+            </div>
+            <div class="untitled__slide">
+              <div class="untitled__slideBg"></div>
+              <div class="untitled__slideContent">
+                <span>Dj Alien Lance,</span>
+                <span>Nandhu NC</span>
+                <a
+                  class="button"
+                  href="https://www.yepdesk.com/daksha-yanthra"
+                  target="/black"
+                  >Buy Now</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="untitled__shutters"></div>
+        </div>
+      </div>
+      <!-- EVENTS -->
+      <div class="header-container">
+        <p class="heading">EVENTS</p>
+      </div>
+      <section>
+        <time datetime="2023-04-1" class="hidden">
+          <a href="https://www.yepdesk.com/daksha-yanthra">
+            <img src="photos/posters/bailamo.jpeg" />
+            <span class="caldate">01</span>
+            <span class="title">BAILAMO</span>
+          </a>
+        </time>
+        <time datetime="2015-07-27" class="hidden">
+          <a href="https://www.yepdesk.com/daksha-yanthra">
+            <img src="photos/posters/la-couture.jpeg" />
+            <span class="caldate">02</span>
+            <span class="title">LA-COUTURE</span>
+          </a>
+        </time>
+        <time datetime="2015-07-28" class="hidden">
+          <a href="https://www.yepdesk.com/daksha-yanthra">
+            <img src="photos/posters/revelare - te.jpeg" />
+            <span class="caldate">03</span>
+            <span class="title">LA-COUTURE</span>
+          </a>
+        </time>
+        <time datetime="2015-08-03" class="hidden">
+          <a href="https://www.yepdesk.com/daksha-yanthra">
+            <img src="photos/posters/beat-the-spot.jpeg" />
+            <span class="caldate">04</span>
+            <span class="title">BEAT THE SPOT</span>
+          </a>
+        </time>
+        <time datetime="2015-07-30" class="hidden">
+          <a href="https://www.yepdesk.com/daksha-yanthra">
+            <img src="photos/posters/one-mic-stand.jpeg" />
+            <span class="caldate">05</span>
+            <span class="title">ONE MIC STAND</span>
+          </a>
+        </time>
+        <time datetime="2015-08-17" class="hidden">
+          <a href="https://www.yepdesk.com/daksha-yanthra">
+            <img src="photos/posters/el-dueto.jpeg" />
+            <span class="caldate">06</span>
+            <span class="title">EL DUETO</span>
+          </a>
+        </time>
+        <time datetime="2015-08-02" class="hidden">
+          <a href="https://www.yepdesk.com/daksha-yanthra">
+            <img src="photos/posters/verbal-volley.jpeg" />
+            <span class="caldate">07</span>
+            <span class="title">VERBAL-VOLLEY</span>
+          </a>
+        </time>
+        <time datetime="2015-08-13" class="hidden">
+          <a href="https://www.yepdesk.com/daksha-yanthra">
+            <img src="photos/posters/groove.jpeg" />
+            <span class="caldate">08</span>
+            <span class="title">GROOVE</span>
+          </a>
+        </time>
+        <time datetime="2015-08-06" class="hidden">
+          <a href="https://www.yepdesk.com/daksha-yanthra">
+            <img src="photos/posters/sync-up.jpeg" />
+            <span class="caldate">09</span>
+            <span class="title">SYNC UP</span>
+          </a>
+        </time>
+        <time datetime="2015-08-09" class="hidden">
+          <a href="https://www.yepdesk.com/daksha-yanthra">
+            <img src="photos/posters/bloomer.jpeg" />
+            <span class="caldate">10</span>
+            <span class="title">BLOOMER</span>
+          </a>
+        </time>
+        <time datetime="2015-08-19" class="hidden">
+          <a href="https://www.yepdesk.com/daksha-yanthra">
+            <img src="photos/posters/unplugged.jpeg" />
+            <span class="caldate">11</span>
+            <span class="title">UNPLUGGED</span>
+          </a>
+        </time>
+        <time datetime="2015-08-23" class="hidden">
+          <a href="https://www.yepdesk.com/daksha-yanthra">
+            <img src="photos/posters/k-hack.jpeg" />
+            <span class="caldate">12</span>
+            <span class="title">K HACK</span>
+          </a>
+        </time>
+        <time datetime="2015-08-24" class="hidden">
+          <a href="https://www.yepdesk.com/daksha-yanthra">
+            <img src="photos/posters/youth-parliament.jpeg" />
+            <span class="caldate">13</span>
+            <span class="title">YOUTH PARLIAMENT</span></a
+          >
+        </time>
+        <time datetime="2015-08-26" class="hidden">
+          <a href="https://www.yepdesk.com/daksha-yanthra">
+            <img src="photos/posters/impressario.jpeg" />
+            <span class="caldate">14</span>
+            <span class="title">IMPRESSARIO</span>
+          </a>
+        </time>
+        <time datetime="2023-04-2" class="hidden">
+          <a href="https://www.yepdesk.com/daksha-yanthra">
+            <img src="photos/posters/electric-vehicle.jpeg" />
+            <span class="caldate">15</span>
+            <span class="title">ELECTRIC VEHICLE</span>
+          </a>
+        </time>
+        <time datetime="2023-04-2" class="hidden">
+          <a href="https://www.yepdesk.com/daksha-yanthra">
+            <img src="photos/posters/robotics.jpeg" />
+            <span class="caldate">16</span>
+            <span class="title">ROBOTICS</span>
+          </a>
+        </time>
+        <time datetime="2023-04-2" class="hidden">
+          <a href="https://www.yepdesk.com/daksha-yanthra">
+            <img src="photos/posters/embedded-system.jpeg" />
+            <span class="caldate">17</span>
+            <span class="title">EMBEDDED SYSTEM</span>
+          </a>
+        </time>
+        <time datetime="2023-04-2" class="hidden">
+          <a href="https://www.yepdesk.com/daksha-yanthra">
+            <img src="photos/posters/metaverse.jpeg" />
+            <span class="caldate">18</span>
+            <span class="title">METAVERSE</span>
+          </a>
+        </time>
+        <time datetime="2023-04-2" class="hidden">
+          <a href="https://www.yepdesk.com/daksha-yanthra">
+            <img src="photos/posters/photography.jpeg" />
+            <span class="caldate">19</span>
+            <span class="title">PHOTOGRAPHY</span>
+          </a>
+        </time>
+        <time datetime="2023-04-2" class="hidden">
+          <a href="https://www.yepdesk.com/daksha-yanthra">
+            <img src="photos/posters/stock-trading.jpeg" />
+            <span class="caldate">20</span>
+            <span class="title">STOCK TRADING</span>
+          </a>
+        </time>
+        <time datetime="2023-04-2" class="hidden">
+          <a href="https://www.yepdesk.com/daksha-yanthra">
+            <img src="photos/posters/game-development.jpeg" />
+            <span class="caldate">21</span>
+            <span class="title">GAME DEVELOPMENT</span>
+          </a>
+        </time>
+        <time datetime="2023-04-2" class="hidden">
+          <a href="https://www.yepdesk.com/daksha-yanthra">
+            <img src="photos/posters/video-editing.jpeg" />
+            <span class="caldate">22</span>
+            <span class="title">VIDEO EDITING</span>
+          </a>
+        </time>
+        <!-- CODE TO CREATE A BLANK CONTAINER -->
+        <!-- <time datetime="2015-09-01" class="blank">
+          <span class="caldate">01</span>
+        </time> -->
+      </section>
+    </main>
+    <div class="main-wrapper">
+      <div class="main-wrapper">
+        <footer>
+          <div class="footer-wrapper">
+            <div class="dy">
+              <ul class="dylist">
+                <li>D</li>
+                <li>A</li>
+                <li>K</li>
+                <li>S</li>
+                <li>H</li>
+                <li>A</li>
+                <li>&nbsp;</li>
+                <li>Y</li>
+                <li>A</li>
+                <li>N</li>
+                <li>T</li>
+                <li>H</li>
+                <li>R</li>
+                <li>A</li>
+              </ul>
+            </div>
+            <div class="powered">Powered by</div>
+            <img class="trilok" src="./images/tr.png" />
+          </div>
+        </footer>
+      </div>
+    </div>
+    <!-- <div class="loading-page">
+      <div id="particles-background" class="vertical-centered-box"></div>
+      <div id="particles-foreground" class="vertical-centered-box"></div>
+      <div class="vertical-centered-box">
+        <div class="contents">
+          <div class="loader-circle"></div>
+          <div class="loader-line-mask">
+            <div class="loader-line"></div>
+          </div>
+          <img width="50px" src="./photos/dy-logo.png" alt="" />
+        </div>
+      </div>
+    </div> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="./js/events.js"></script>
+  </body>
+</html>

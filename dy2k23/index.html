@@ -1,0 +1,90 @@
+
+<!-- LANDING SITE NEED TO ADD A BUTTN WHICH POPS AFTER THE VIDEO STOPS AND THEN DIRECTS TO THE HOME
+PAGE THIS HAPPENS ONLY WHEN YOU TYPE IN dakshayanthra.in AFTER THAT NO LOADING THIS PAGE-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daksha Yanthra</title>
+    <link
+      rel="icon"
+      href="images/Logo.png"
+      type="image/x-icon"
+      media="(prefers-color-scheme:light)"
+    />
+    <link
+      rel="icon"
+      href="images/Logo.webp"
+      type="image/x-icon"
+      media="(prefers-color-scheme: dark)"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link href="./CSS/style.css" rel="stylesheet" />
+  </head>
+  <body>
+ <span id="splash-overlay" class="splash"></span>
+    <span id="welcome" class="z-depth-4"></span>
+    <div class="hero">
+      <div class="video-wrapper">
+        <video
+          class="hero-vid"
+          id="hero-vid"
+          loop
+          muted
+          playsinline
+          preload="auto"
+        >
+          <source src="./video/Hero.webm" type="video/webm" />
+        </video>
+      </div>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script>
+      window.onload = function () {
+        document.getElementById("hero-vid").play();
+      };
+    </script>
+
+<footer>
+  <div class="footer-wrapper">
+    <div class="dy">
+      <ul class="dylist">
+        <li>D</li>
+        <li>A</li>
+        <li>K</li>
+        <li>S</li>
+        <li>H</li>
+        <li>A</li>
+        <li>&nbsp;</li>
+        <li>Y</li>
+        <li>A</li>
+        <li>N</li>
+        <li>T</li>
+        <li>H</li>
+        <li>R</li>
+        <li>A</li>
+      </ul>
+    </div>
+    <div class="powered">Powered by</div>
+    <img class="trilok" src="./images/tr.png" />
+  </div>
+</footer>
+
+  </body>
+</html>
